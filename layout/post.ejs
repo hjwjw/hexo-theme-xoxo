@@ -25,7 +25,7 @@
       <span id="busuanzi_value_page_pv"></span> 点击
     </span>
       <span class="slash">/</span>
-      <span class="read">阅读耗时 <%=readingTime(page.content, '分钟') %></span>
+      <span class="read">阅读耗时 <%- readingTime(page.content, '分钟') %></span>
     </header>
 
     <div class="post-content">
@@ -39,6 +39,6 @@
   </div>
 </div>
 <%- partial('partials/copyright') %>
-<%- partial('partials/share') %>
 <%- partial('partials/prenext') %>
-<%- partial('partials/disqus') %>
+<%- partial('partials/share') %>
+<%- partial('partials/valine') %>

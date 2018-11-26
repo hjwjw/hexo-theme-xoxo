@@ -1,19 +1,20 @@
 
 # html lang
 language: zh-Hans
-
 # main menu navigation
 menu:
   home: /
   archives: /archives
+  categories: /categories  
   tags: /tags
-  #categories: /categories
   search: /search
-  about: https://0xff000000.com
+  about: /about
   rss: /atom.xml
 
 # Miscelaneous
-favicon: /logo.png
+favicon: /images/logo.png
+#https://ws1.sinaimg.cn/large/005RGBbLly1fxjm6hz9yyj30cs0csdnk.jpg
+
 
 # stylesheets loaded in the <head>
 stylesheets:
@@ -30,6 +31,6 @@ scripts:
 show_excerpt: true
 show_date: true
 #footer
-index_page: https://blog.0xff000000.com
-main_site: https://0xff000000.com
-github: https://github.com/KevinOfNeu
+index_page: https://hjwjw.github.io
+main_site: https://hjwjw.github.io
+github: https://github.com/hjwjw
