@@ -15,11 +15,7 @@ if (is_home()) pageTitle+= config.subtitle;
   <meta name="theme-color" content="#202020"/>
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
- <!-- 
-  <% if (page.type === "about"){ %>
-	<link rel="stylesheet" href="//at.alicdn.com/t/font_610432_4jf2zk7wfld3rf6r.css">
-  <% } %>
-  -->
+
   <% if (page.tags && page.tags.length) { %>
     <meta name="keywords" content="<% page.tags.forEach(function(tag) { %><%= tag.name %>,<% }); %>" />
   <% } else { %>
